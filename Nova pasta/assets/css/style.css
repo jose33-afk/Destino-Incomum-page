@@ -1,0 +1,10 @@
+@import url(./base/variables.css);
+@import url(./base/normalize.css);
+@import url(./base/reset.css);
+
+@import url(./section-media/section-media.css);
+@import url(./section-img/section-img.css);
+@import url(../css/section-video/section-video.css);
+@import url(./header/header.css);
+@import url(../css/main/main.css);
+@import url(../css/footer/footer.css);

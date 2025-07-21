@@ -1,0 +1,22 @@
+header {
+    align-items: center;
+    background-color: #f2e6d0a4;
+    color: var(--tom-texto);
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 5px;
+    justify-content: flex-start;
+    height: 7vh;
+}
+
+.header__logo {
+    background-image: url(../../img/logo-site.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100%;
+}
+
+.header__titolo {
+    flex: 1 1 32px;
+}

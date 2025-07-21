@@ -1,0 +1,41 @@
+.sessao-img {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    margin: 10px;
+}
+
+
+.sessao-img__imagem {
+    background-image: url(../../img/pexels-postiglioni-947185.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    flex: 1 1 600px;
+    height: 400px;
+    margin-bottom: 5px;
+}
+
+
+.sessao-img__texto, .sessao-video__texto {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 50%;
+}
+
+.sessao-img__texto--paragrafo, .sessao-video__texto--paragrafo {
+  text-align: justify;
+  text-indent: 1em;
+  width: 80%;
+}
+
+@media (max-width: 1248px) {
+    .sessao-img__texto--paragrafo, .sessao-video__texto--paragrafo {
+        width: 100%; 
+    }
+
+    .sessao-img__imagem {
+         height: 260px;
+    }
+}
+
