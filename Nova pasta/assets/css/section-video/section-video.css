@@ -8,13 +8,15 @@
 
 .sessao-video__yt {
     border-radius: 10px;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.336);
     flex: 1 1 600px;
     height: 400px;
 }
 
 @media (max-width: 1248px) { 
     .sessao-video__yt {
-        
-        height: 260px;
+        height: 320px;
+        flex: 0 1 700px;
+        margin: 0 auto;
     }
 }
